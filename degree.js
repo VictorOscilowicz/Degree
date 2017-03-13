@@ -11,16 +11,15 @@ let A = Matrix([
 function degree(mtrx,v){
   let sum = 0;
   let degreelist = mtrx(v-1);
-
   for(var s=0;s<mtrx.length;s++){
     return sum;
   }
 }
 
-function degreecentrality(){
-  let neighbors =
+function degreecentrality(mtrx,v){
+  let neighbor=mtrx.size().pop(0) - 1;
+  return degree(mtrx);
 }
-
 //Challenge
 
 //Run test code with ctrl+shift+p  then type in "script"
